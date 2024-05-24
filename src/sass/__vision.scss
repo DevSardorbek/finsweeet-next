@@ -1,0 +1,32 @@
+.vision__wrapper {
+  margin-top: 130px;
+  margin-bottom: 122px;
+  .vision__section {
+    background-color: #f4f0f8;
+    display: flex;
+    align-items: center;
+    gap: 54px;
+    padding: 83px 100px;
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 3px;
+      color: #232536;
+    }
+    h2 {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 40px;
+      color: #232536;
+      margin-top: 24px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #6d6e76;
+    }
+  }
+}

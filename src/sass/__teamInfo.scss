@@ -1,0 +1,39 @@
+.teamInfo__wrapper {
+  margin-bottom: 90px;
+  .teamInfo__section {
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+    .teamInfo__section-item {
+      display: flex;
+      align-items: center;
+      gap: 80px;
+      h2 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2px;
+        color: #232536;
+      }
+      h3 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        color: #232536;
+        margin: 16px 0;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color: #232536;
+      }
+    }
+    .column1 {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
+}
